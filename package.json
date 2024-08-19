@@ -1,0 +1,26 @@
+
+### package.json
+
+Make sure to update the `license` field in your `package.json` file:
+
+```json
+{
+  "name": "mev-sandwich-bot",
+  "version": "1.0.0",
+  "description": "MEV sandwich bot for Ethereum using Flashbots",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^1.0.0",
+    "ethers": "^5.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
