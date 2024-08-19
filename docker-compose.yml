@@ -1,0 +1,13 @@
+version: '3'
+services:
+  bot:
+    build: .
+    environment:
+      - NODE_ENV=development
+      - INFURA_PROJECT_ID=your_infura_project_id
+      - PRIVATE_KEY=your_private_key
+      - FLASHBOTS_RELAY_URL=https://relay.flashbots.net
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"
