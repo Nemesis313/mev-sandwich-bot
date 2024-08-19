@@ -1,2 +1,16 @@
-# mev-sandwich-bot
-This setup provides a basic structure for your MEV sandwich bot. You can expand and optimize it based on your specific requirements and strategies.
+# MEV Sandwich Bot
+
+This is a simple MEV sandwich bot for Ethereum using Flashbots.
+
+## Prerequisites
+
+- Docker
+- Node.js
+- Infura account
+
+## Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/mev-sandwich-bot.git
+   cd mev-sandwich-bot
